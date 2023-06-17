@@ -41,7 +41,7 @@ while True:
        valor_do_saque = int(input("Digite o valor do saque que deseja realizar: "))
        if valor_do_saque < lista_do_saldo[indice_da_conta]:
            lista_do_saldo[indice_da_conta] -= valor_do_saque
-           print("Seu saldo atualizado é de: R$", lista_do_saldo[indice_da_conta])
+           print("Seu saldo atualizado é de: R$",lista_do_saldo[indice_da_conta])
        else: 
            print("Saldo insuficiente")
     else:
